@@ -2,6 +2,8 @@ var originalFs = Npm.require('fs');
 
 fs = _.clone(originalFs);
 
+assert.ok(!fs._meteor);
+
 // We set _meteor so that we can be sure and check we are getting our version of fs package
 fs._meteor = true;
 

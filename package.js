@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.use(['blocking', 'underscore'], 'server');
+  api.use(['blocking', 'underscore', 'assert'], 'server');
 
   api.export('fs');
 
