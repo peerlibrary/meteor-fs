@@ -11,5 +11,5 @@ _.each(fs, function (value, name, obj) {
   if (name === nonSyncName) {
     return;
   }
-  obj[name] = blocking(originalFs[nonSyncName]);
+  obj[name] = blocking(obj[nonSyncName]);
 });
