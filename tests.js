@@ -14,4 +14,7 @@ Tinytest.add('meteor-fs', function (test) {
   test.isTrue(fs.statSync._blocking, "Not a fibers-enabled synchronous (blocking) function");
 
   test.isTrue(fs.statSync('.'));
+
+  // existsSync is a special case, let's test it
+  test.isTrue(fs.existsSync('.'));
 });
