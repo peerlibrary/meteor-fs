@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Meteor smart package for fs node.js module"
+  summary: "fs node.js module with fiber-enabled synchronous functions"
 });
 
 Package.on_use(function (api) {

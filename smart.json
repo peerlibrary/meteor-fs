@@ -1,6 +1,6 @@
 {
   "name": "fs",
-  "description": "Meteor smart package for fs node.js module",
+  "description": "fs node.js module with fiber-enabled synchronous functions",
   "homepage": "https://github.com/peerlibrary/meteor-fs.js",
   "author": "The PeerLibrary Project",
   "version": "0.1.3",
