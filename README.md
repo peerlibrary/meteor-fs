@@ -6,3 +6,12 @@ functions do not really block the whole process but are [fibers](https://github.
 synchronous ([blocking](https://github.com/peerlibrary/meteor-blocking)) functions.
 
 Adding this package to your [Meteor](http://www.meteor.com/) application adds `fs` object into the global scope.
+
+Server side only.
+
+Installation
+------------
+
+```
+mrt add fs
+```
