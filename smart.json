@@ -3,7 +3,7 @@
   "description": "Meteor smart package for fs node.js module",
   "homepage": "https://github.com/peerlibrary/meteor-fs.js",
   "author": "The PeerLibrary Project",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "git": "https://github.com/peerlibrary/meteor-fs.git",
   "packages": {
     "assert": {},
