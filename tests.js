@@ -1,4 +1,4 @@
-Tinytest.add('meteor-fs', function (test) {
+Tinytest.add('fs', function (test) {
   var isDefined = false;
   try {
     fs;
