@@ -13,5 +13,5 @@ Installation
 ------------
 
 ```
-mrt add fs
+meteor add peerlibrary:fs
 ```
