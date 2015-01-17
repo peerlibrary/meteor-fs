@@ -7,7 +7,7 @@ Tinytest.add('fs', function (test) {
   catch (e) {
   }
   test.isTrue(isDefined, "fs is not defined");
-  test.isTrue(Package.['peerlibrary:fs'].fs, "Package.peerlibrary:fs.fs is not defined");
+  test.isTrue(Package['peerlibrary:fs'].fs, "Package.peerlibrary:fs.fs is not defined");
 
   test.isTrue(fs._meteor, "Not fibers-enabled fs package");
 
